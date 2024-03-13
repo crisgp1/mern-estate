@@ -5,5 +5,5 @@ const router = express.Router(); // Crea un nuevo router
 
 router.post('/signup', signup); // Ruta para crear un nuevo usuario
 router.post('/signin', signin); // Ruta para iniciar sesión
-
+router.post('/google')
 export default router;
